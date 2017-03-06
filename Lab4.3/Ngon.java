@@ -1,4 +1,4 @@
-public class Ngon {
+public class Ngon extends Shape {
 	public void draw(){}
 	
 	public int whichShape(int numOfSides) {
