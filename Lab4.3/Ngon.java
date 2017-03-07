@@ -2,7 +2,7 @@ public class Ngon extends Shape {
 	
 	public void draw(){}
 
-	public void draw(Coord coord1, double numOfSides, double length){
+	public static void draw(Coord coord1, double numOfSides, double length){
 
 		Turtle turtle = new Turtle(coord1.getX(), coord1.getY(), 0.0);
 		double angle = 360.0/numOfSides;

@@ -20,7 +20,7 @@ public class ShapesTester {
 		coord1.setX(.385); coord1.setY(0.495);
 		RightTriangle.draw(coord1, .12, .07);
 		//creating a random Ngon tester
-		//coord1.setX(0.5); coord1.setY(0.6);
-		//Ngon.draw(coord1, 7, 0.3);
+		coord1.setX(0.3); coord1.setY(0.4);
+		Ngon.draw(coord1, 7, 0.1);
 	}	
 }	
