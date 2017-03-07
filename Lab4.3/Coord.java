@@ -1,3 +1,8 @@
+//Alex Eiden
+//2017-03-07
+//Coord
+//Allows creation and modification of coordinates
+
 public class Coord {
 
 	private double x;

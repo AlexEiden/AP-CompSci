@@ -1,4 +1,8 @@
-import java.awt.Color;
+//Alex Eiden
+//2017-03-07
+//ShapesTester
+//Tests different shapes and all classes
+
 public class ShapesTester {
 	public static void main(String[] args){
 		StdDraw.setPenRadius(.01); //setting thickness for all, man does it need to be small..
@@ -14,6 +18,10 @@ public class ShapesTester {
 		Trapezoid.draw(coord1, coord2, coord3, coord4);
 		//testing RegularHexagon
 		RegularHexagon.draw(.1);
+		//testing Triangle
+		coord1.setX(.8);coord2.setX(.85);coord3.setX(.9);
+		coord1.setY(.1);coord2.setY(.2);coord3.setY(.15);
+		Triangle.draw(coord1, coord2, coord3);
 		//testing EquilateralTriangle
 		EquilateralTriangle.draw(.15);
 		//testing RightTriangle
