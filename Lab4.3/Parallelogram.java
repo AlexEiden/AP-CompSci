@@ -1,5 +1,5 @@
 public class Parallelogram extends Ngon {
-	public void draw(Coord one, Coord two, Coord three, Coord four){
+	public static void draw(Coord one, Coord two, Coord three, Coord four){
 		//build checker
 		StdDraw.line(one.getX(), one.getY(), two.getX(), two.getY());		
 		StdDraw.line(two.getX(), two.getY(), three.getX(), three.getY());

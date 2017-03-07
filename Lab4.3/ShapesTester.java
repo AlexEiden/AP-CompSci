@@ -1,14 +1,11 @@
 import java.awt.Color;
 public class ShapesTester {
 	public static void main(String[] args){
-		int length = 5;
-		Turtle turtle = new Turtle(.5, .5, 0.0);
-	    double angle = 360.0/length;
-	    for (int t = 0; t < length; t++) {
-	        turtle.turnLeft(angle);
-	        turtle.goForward(.1);
-	        turtle.show();
-	        turtle.pause(1000);
-	    } 
+		//testing Parallelogram
+		Coord coord1 = new Coord(1,1);
+		Coord coord2 = new Coord(1,2);
+		Coord coord3 = new Coord(2,2);
+		Coord coord4 = new Coord(2,1);
+		Parallelogram.draw(coord1, coord2, coord3, coord4);
 	}	
 }	
