@@ -4,7 +4,8 @@ public class Parallelogram extends Ngon {
 		double x1 = one.getX(), x2 = two.getX(), x3 = three.getX(), x4 = four.getX();
 		double y1 = one.getY(), y2 = two.getY(), y3 = three.getY(), y4 = four.getY();
 
-		if (x1 != x4 || x2 != x3 || y1 != y2 || y3 != y4) {
+		if (x1 != x4 || x2 != x3 || y1 != y2 || y3 != y4) { //This does not apply for all cases,
+															//can be modified at a later date
 			System.out.println("You done goofed");
 			throw new IllegalArgumentException("Points are not connected");
 		}
