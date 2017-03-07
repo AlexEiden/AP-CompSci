@@ -8,10 +8,10 @@ public class Coord {
 		y = yPos;
 	}
 
-	public getX() {
+	public double getX() {
 		return x;
 	}
-	public getY() {
+	public double getY() {
 		return y;
 	}
 }
