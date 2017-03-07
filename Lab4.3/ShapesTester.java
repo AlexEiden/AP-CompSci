@@ -16,5 +16,8 @@ public class ShapesTester {
 		RegularHexagon.draw(.1);
 		//testing EquilateralTriangle
 		EquilateralTriangle.draw(.15);
+		//testing RightTriangle
+		coord1.setX(.385); coord1.setY(0.495);
+		RightTriangle.draw(coord1, .12, .07);
 	}	
 }	
