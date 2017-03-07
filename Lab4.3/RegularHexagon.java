@@ -1,4 +1,4 @@
-public class RegularHexagon {
+public class RegularHexagon extends Ngon {
 	public static void draw(double length) {
 		Turtle turtle = new Turtle(.75, .75, 0.0); //using Tutle out of laziness
 													//don't want to calculate coords :(

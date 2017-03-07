@@ -14,5 +14,7 @@ public class ShapesTester {
 		Trapezoid.draw(coord1, coord2, coord3, coord4);
 		//testing RegularHexagon
 		RegularHexagon.draw(.1);
+		//testing EquilateralTriangle
+		EquilateralTriangle.draw(.15);
 	}	
 }	
