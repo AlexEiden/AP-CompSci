@@ -7,7 +7,7 @@ public class RightTriangle extends Triangle {
 
 
 	//using Turtle (these two shapes overlap)
-		
+		//ended up not using turtle for sake of elegance. Would need to calculate angles and the hypotenuse	
 	}
 
 /*	public double Hypotenuse(Coord one, double lengthX, double lengthY) {
