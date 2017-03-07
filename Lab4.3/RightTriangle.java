@@ -1,3 +1,8 @@
+//Alex Eiden
+//2017-03-07
+//RightTriangle
+//Creates right triangle
+
 public class RightTriangle extends Triangle {
 	public static void draw(Coord one, double lengthX, double lengthY) {
 	//using StdDraw's line method

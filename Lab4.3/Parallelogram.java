@@ -1,3 +1,10 @@
+//Alex Eiden
+//2017-03-07
+//Parallelogram
+//Creates Parallelograms (assuming one pair of parallel sides.
+//If two pairs, code could be simplified, as less coordinates
+//would be needed, just two lengths and initial coord)
+
 public class Parallelogram extends Ngon {
 	public static void draw(Coord one, Coord two, Coord three, Coord four){
 		//build checker

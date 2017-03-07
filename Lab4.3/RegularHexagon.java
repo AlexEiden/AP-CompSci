@@ -1,3 +1,8 @@
+//Alex Eiden
+//2017-03-07
+//RegularHexagon
+//Creates Regular Hexagon
+
 public class RegularHexagon extends Ngon {
 	public static void draw(double length) {
 		//Could have inherited from Ngon class, but now either one will work

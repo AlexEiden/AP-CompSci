@@ -1,3 +1,8 @@
+//Alex Eiden
+//2017-03-07
+//Ngon
+//Creates regular Ngon
+
 public class Ngon extends Shape {
 	
 	public void draw(){}

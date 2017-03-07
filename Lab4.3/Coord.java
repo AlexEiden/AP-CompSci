@@ -27,4 +27,4 @@ public class Coord {
 	public double getY() {
 		return y;
 	}
-}
+}//This is a useless test comment please INGORE!
