@@ -33,8 +33,10 @@ public class SorterTest {
         //Using the multithreaded quicksort
         Sorter.quicksort(values);
         System.out.println(Arrays.toString(values));
-        // Assert equality.
+
         //assertArrayEquals(sortedValues, values);
+
+        System.out.println(Arrays.equals(sortedValues, values)); //Assert won't work so I'm using a reguar checker
     }
 
     /**
@@ -53,10 +55,7 @@ public class SorterTest {
 
         // Copy the values into a new array to sort with Java's built in implementation for comparison
         Integer[] sortedArr = new Integer[20000000];
-        final long copyStart = System.currentTimeMillis();
         System.arraycopy(arr, 0, sortedArr, 0, arr.length);
-        final long copyEnd = System.currentTimeMillis();
-        System.out.println("Copy time: " + (copyEnd - copyStart) + " miliseconds");
 
         // Start sorting
         final long sortStartTime = System.currentTimeMillis();
@@ -68,7 +67,9 @@ public class SorterTest {
         final long sortEndTime = System.currentTimeMillis();
 
         // For some reason cannot get the assert equality function to work
-        //assertArrayEquals(sortedValues, values);
+        //assertArrayEquals(sortedArr, arr);
+
+        System.out.println(Arrays.equals(sortedArr, arr)); //Assert won't work so I'm using a reguar checker
 
         // Print Statistics
         System.out.println("Java built in implementation: " + (sortTradeOffTime - sortStartTime) + " miliseconds");
